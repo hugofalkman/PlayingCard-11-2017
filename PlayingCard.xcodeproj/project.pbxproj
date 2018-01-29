@@ -15,6 +15,7 @@
 		B102BA7920173C690026B3CE /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B102BA7820173C690026B3CE /* PlayingCard.swift */; };
 		B102BA7B2017498E0026B3CE /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B102BA7A2017498E0026B3CE /* PlayingCardDeck.swift */; };
 		B102BA7D201764B40026B3CE /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B102BA7C201764B40026B3CE /* PlayingCardView.swift */; };
+		B11ECA0B201F87280021D2E5 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA0A201F87280021D2E5 /* CardBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B102BA7820173C690026B3CE /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		B102BA7A2017498E0026B3CE /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 		B102BA7C201764B40026B3CE /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		B11ECA0A201F87280021D2E5 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				B102BA6720173A3E0026B3CE /* ViewController.swift */,
-				B102BA7C201764B40026B3CE /* PlayingCardView.swift */,
+				B11ECA0A201F87280021D2E5 /* CardBehavior.swift */,
 				B102BA6920173A3E0026B3CE /* Main.storyboard */,
-				B102BA7820173C690026B3CE /* PlayingCard.swift */,
-				B102BA7A2017498E0026B3CE /* PlayingCardDeck.swift */,
 				B102BA6C20173A3E0026B3CE /* Assets.xcassets */,
+				B11ECA0C201F87740021D2E5 /* PlayingCard */,
 				B102BA7720173A920026B3CE /* Supporting  */,
 				B102BA7120173A3E0026B3CE /* Info.plist */,
 			);
@@ -79,6 +80,16 @@
 				B102BA6E20173A3E0026B3CE /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting ";
+			sourceTree = "<group>";
+		};
+		B11ECA0C201F87740021D2E5 /* PlayingCard */ = {
+			isa = PBXGroup;
+			children = (
+				B102BA7C201764B40026B3CE /* PlayingCardView.swift */,
+				B102BA7820173C690026B3CE /* PlayingCard.swift */,
+				B102BA7A2017498E0026B3CE /* PlayingCardDeck.swift */,
+			);
+			path = PlayingCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 				B102BA7920173C690026B3CE /* PlayingCard.swift in Sources */,
 				B102BA7D201764B40026B3CE /* PlayingCardView.swift in Sources */,
 				B102BA6620173A3E0026B3CE /* AppDelegate.swift in Sources */,
+				B11ECA0B201F87280021D2E5 /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
